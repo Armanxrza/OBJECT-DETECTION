@@ -1,18 +1,4 @@
-# Ultralytics YOLOv5 🚀, AGPL-3.0 license
-"""
-Train a YOLOv5 model on a custom dataset. Models and datasets download automatically from the latest YOLOv5 release.
 
-Usage - Single-GPU training:
-    $ python train.py --data coco128.yaml --weights yolov5s.pt --img 640  # from pretrained (recommended)
-    $ python train.py --data coco128.yaml --weights '' --cfg yolov5s.yaml --img 640  # from scratch
-
-Usage - Multi-GPU DDP training:
-    $ python -m torch.distributed.run --nproc_per_node 4 --master_port 1 train.py --data coco128.yaml --weights yolov5s.pt --img 640 --device 0,1,2,3
-
-Models:     https://github.com/ultralytics/yolov5/tree/master/models
-Datasets:   https://github.com/ultralytics/yolov5/tree/master/data
-Tutorial:   https://docs.ultralytics.com/yolov5/tutorials/train_custom_data
-"""
 
 import argparse
 import math
@@ -101,39 +87,7 @@ GIT_INFO = check_git_info()
 
 
 def train(hyp, opt, device, callbacks):
-    """
-    Train a YOLOv5 model on a custom dataset using specified hyperparameters, options, and device, managing datasets,
-    model architecture, loss computation, and optimizer steps.
-
-    Args:
-        hyp (str | dict): Path to the hyperparameters YAML file or a dictionary of hyperparameters.
-        opt (argparse.Namespace): Parsed command-line arguments containing training options.
-        device (torch.device): Device on which training occurs, e.g., 'cuda' or 'cpu'.
-        callbacks (Callbacks): Callback functions for various training events.
-
-    Returns:
-        None
-
-    Models and datasets download automatically from the latest YOLOv5 release.
-
-    Example:
-        Single-GPU training:
-        ```bash
-        $ python train.py --data coco128.yaml --weights yolov5s.pt --img 640  # from pretrained (recommended)
-        $ python train.py --data coco128.yaml --weights '' --cfg yolov5s.yaml --img 640  # from scratch
-        ```
-
-        Multi-GPU DDP training:
-        ```bash
-        $ python -m torch.distributed.run --nproc_per_node 4 --master_port 1 train.py --data coco128.yaml --weights
-        yolov5s.pt --img 640 --device 0,1,2,3
-        ```
-
-        For more usage details, refer to:
-        - Models: https://github.com/ultralytics/yolov5/tree/master/models
-        - Datasets: https://github.com/ultralytics/yolov5/tree/master/data
-        - Tutorial: https://docs.ultralytics.com/yolov5/tutorials/train_custom_data
-    """
+ 
     save_dir, epochs, batch_size, weights, single_cls, evolve, data, cfg, resume, noval, nosave, workers, freeze = (
         Path(opt.save_dir),
         opt.epochs,
