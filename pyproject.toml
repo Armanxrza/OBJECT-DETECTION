@@ -7,20 +7,12 @@ build-backend = "setuptools.build_meta"
 [project]
 version = "7.0.0"
 name = "YOLOv5"
-description = "Ultralytics YOLOv5 for SOTA object detection, instance segmentation and image classification."
+description = "Project made for Students to learn about Python's Object Detection"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { "text" = "AGPL-3.0" }
 keywords = ["machine-learning", "deep-learning", "computer-vision", "ML", "DL", "AI", "YOLO", "YOLOv3", "YOLOv5", "YOLOv8", "HUB", "Ultralytics"]
-authors = [
-    { name = "Glenn Jocher" },
-    { name = "Ayush Chaurasia" },
-    { name = "Jing Qiu" }
-]
-maintainers = [
-    { name = "Glenn Jocher" },
-    { name = "Ayush Chaurasia" },
-    { name = "Jing Qiu" }
+
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
