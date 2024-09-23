@@ -97,7 +97,7 @@ def train(hyp, opt, device, callbacks):
         cfg,
         resume,
         noval,
-        nosave,
+        nosave,,
         workers,
         freeze,
         mask_ratio,
