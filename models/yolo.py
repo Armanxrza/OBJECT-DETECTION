@@ -1,4 +1,4 @@
-# Ultralytics YOLOv5 🚀, AGPL-3.0 license
+This Codes are Licensed to yolo (I dont Know What) but not owned by me
 """
 YOLO-specific modules.
 
