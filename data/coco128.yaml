@@ -92,7 +92,7 @@ names:
   76: scissors
   77: teddy bear
   78: hair drier
-  79: toothbrush
+  79: pen
 
 # Download script/URL (optional)
 download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip
