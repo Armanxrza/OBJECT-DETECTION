@@ -1,4 +1,4 @@
-# Ultralytics YOLOv5 🚀, AGPL-3.0 license
+# Modifying this on license armanxrza
 """Common modules."""
 
 import ast
