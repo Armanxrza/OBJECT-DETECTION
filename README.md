@@ -81,8 +81,19 @@ By harnessing the power of AI, we can make significant strides in improving safe
 
 ---
 
+### Tutorial to Run This Project
+Step 1 : Be Sure You've Installed Python on your system.
+Step 2 : Get this Repo and Navigate to the File Destination
+Step 3 : Open Command Prompt Of this File
+Step 4 : Install Requirement.txt File Using Command - pip install -r requirement.txt
+Step 5 : After Installation Close the Prompt Window
+Step 6 : Open The CMD Prompt Again Run Detect.py - python detect.py --source 0 (For Live)
+                                                 - python detect.py --source data/images/bus.jpg (For Your Image/Video) 
+Step 7 : Check the outputs in Experiment Folder.
+
+
 <div align="center">
-  <a href="https://ultralytics.com/discord"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a>
-  <a href="https://github.com/ultralytics/yolov5/issues/new/choose"><img src="https://img.shields.io/badge/GitHub-Issue%20Tracking-blue"></a>
-  <a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+  <a href="#"></a>
+  <a href="#"></a>
+  <a href="#" alt="Open In Colab"></a>
 </div>
