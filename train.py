@@ -920,7 +920,7 @@ def run(**kwargs):
     Examples:
         ```python
         import train
-        train.run(data='coco128.yaml', imgsz=320, weights='yolov5m.pt')
+        train.run(data='coco128.yaml', imgsz=320, weights='yolov5m.pt') understood?
         ```
 
     Notes:
