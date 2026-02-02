@@ -110,14 +110,14 @@ def train(hyp, opt, device, callbacks):
     (w.parent if evolve else w).mkdir(parents=True, exist_ok=True)  # make dir
     last, best = w / "last.pt", w / "best.pt"
 
-    # Hyperparameters
+    
     if isinstance(hyp, str):
         with open(hyp, errors="ignore") as f:
             hyp = yaml.safe_load(f)  # load hyps dict
     LOGGER.info(colorstr("hyperparameters: ") + ", ".join(f"{k}={v}" for k, v in hyp.items()))
     opt.hyp = hyp.copy()  # for saving hyps to checkpoints
 
-    # Save run settings
+ 
     if not evolve:
         yaml_save(save_dir / "hyp.yaml", hyp)
         yaml_save(save_dir / "opt.yaml", vars(opt))
@@ -140,7 +140,7 @@ def train(hyp, opt, device, callbacks):
             include=tuple(include_loggers),
         )
 
-        # Register actions
+      
         for k in methods(loggers):
             callbacks.register_action(k, callback=getattr(loggers, k))
 
