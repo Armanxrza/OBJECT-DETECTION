@@ -69,11 +69,6 @@ Here’s why YOLOv5 was chosen for this system:
 
 ---
 
-## Conclusion
-
-The **Real-Time Object Detection System** is a powerful tool that addresses Nepal's unique challenges by combining AI technology with local needs. Built using the state-of-the-art **YOLOv5** model, this system has the potential to revolutionize industries such as agriculture, healthcare, and disaster management, while driving growth in Nepal's tech industry.
-
-By harnessing the power of AI, we can make significant strides in improving safety, efficiency, and innovation in Nepal.
 
 ---
 
