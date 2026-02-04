@@ -53,10 +53,6 @@ The model training process was a key part of this project. Here's how I trained 
 
 This project represents a significant step forward for the **AI and tech industry in Nepal**. Here's how:
 
-- **Driving Innovation**: By implementing cutting-edge AI technologies like YOLOv5, this project inspires local developers and startups to explore AI solutions tailored for Nepal.
-- **Employment Opportunities**: The growing need for AI experts and data scientists in Nepal will create more job opportunities and encourage students to pursue careers in technology.
-- **Empowering Local Solutions**: This project can be customized for various Nepali industries, helping the country address its unique challenges through localized tech solutions.
-- **Encouraging Collaboration**: Nepalese universities and tech companies can collaborate on AI projects, promoting a culture of innovation and research.
 
 ---
 
