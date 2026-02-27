@@ -58,8 +58,7 @@ class iOSModel(torch.nn.Module):
             self.normalize = 1.0 / w
         else:
             self.normalize = torch.tensor([1.0 / w, 1.0 / h, 1.0 / w, 1.0 / h])  # broadcast (slower, smaller)
-            # np = model(im)[0].shape[1]  # number of points
-            # self.normalize = torch.tensor([1. / w, 1. / h, 1. / w, 1. / h]).expand(np, 4)  # explicit (faster, larger)
+          
 
     def forward(self, x):
         """
