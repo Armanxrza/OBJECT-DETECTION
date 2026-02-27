@@ -123,15 +123,14 @@ if __name__ == "__main__":
 
     from utils.general import cv2, print_args
 
-    # Argparser
+   
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="yolov5s", help="model name")
     opt = parser.parse_args()
     print_args(vars(opt))
 
-    # Model
+ 
     model = _create(name=opt.model, pretrained=True, channels=3, classes=80, autoshape=True, verbose=True)
-    # model = custom(path='path/to/model.pt')  # custom
 
     # Images
     imgs = [
